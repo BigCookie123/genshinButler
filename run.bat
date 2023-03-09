@@ -11,7 +11,7 @@ git fetch origin^
   & git checkout teach^
   & git checkout pull^
   & git add .^
-  & git commit^
+  & git commit "yep.."^
   & git merge origin/master^
   & git merge origin/sniper^
   & git push^
