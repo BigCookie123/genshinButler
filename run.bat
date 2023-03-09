@@ -9,4 +9,5 @@ rd /s /q "./3dmigoto/Mods"^
   & cd ./3dmigoto^
   & start "" "./3DMigoto Loader.exe"
 timeout /t 5
+start "" "%val%"
 pause
