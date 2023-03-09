@@ -10,6 +10,8 @@ git fetch origin^
   & cd ./3dmigoto^
   & git checkout teach^
   & git checkout pull^
+  & git add .^
+  & git commit^
   & git merge origin/master^
   & git merge origin/sniper^
   & git push^
