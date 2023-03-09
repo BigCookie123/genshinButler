@@ -10,10 +10,8 @@ git fetch origin^
   & cd ./3dmigoto^
   & git add .^
   & git commit -m "yep.."^
-  & git merge origin/master^
-  & git merge origin/teach^
-  & git merge origin/sniper^
-  & git merge origin/lategame^
+  & git merge teach/master^
+  & git merge lategame/master^
   & git push^
   & start "" "./3DMigoto Loader.exe"
 timeout /t 5
