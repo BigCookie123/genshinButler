@@ -10,6 +10,10 @@ git fetch origin^
   & cd ./3dmigoto^
   & git checkout teach^
   & git checkout pull^
+  & git merge origin/master^
+  & git merge origin/sniper^
+  & git push^
+  & git checkout master^
   & start "" "./3DMigoto Loader.exe"
 timeout /t 5
 start "" "%val%"
